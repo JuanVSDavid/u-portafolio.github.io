@@ -1,0 +1,90 @@
+:root {
+	--main-color: #fff;
+	--secondary-color-dark: #6C2EF2;
+	--secondary-color-light: #CCBBF2;
+	--secondary-color-purple-light: #A480F2;
+	--secondary-color-blue: #3805F2;
+}
+
+body {
+	background: linear-gradient(to right, var(--secondary-color-purple-light) 50%, var(--secondary-color-dark) 50%);
+}
+
+* {
+	font-family: "Poppins", sans-serif;
+	color: var(--main-color) !important;
+}
+
+.main {
+	min-height: 100dvh;
+	display: flex;
+	align-items: center;
+}
+
+.main__presentation h2 {
+	font-size: 10rem;
+}
+
+.main__presentation h2 span {
+	color: var(--secondary-color-blue) !important;
+}
+
+.main__presentation h1{
+	font-size: 4rem;
+}
+
+.main__presentation p {
+	font-size: 2rem;
+}
+
+.main__link a{
+	font-size: 4rem;
+}
+
+.main__link a:hover {
+	color: var(--secondary-color-light) !important;
+}
+
+.card.card__dark {
+	background-color: var(--secondary-color-dark);
+}
+
+.card.card__light {
+	background-color: var(--secondary-color-purple-light);
+}
+
+.card.card__light p {
+	color: var(--secondary-color-blue);
+}
+
+.content {
+	background-color: var(--main-color);
+}
+
+.content p, .content ul li {
+	color: var(--secondary-color-blue) !important;
+	font-size: 20px;
+}
+
+.content ul li {
+	list-style-type: none;
+	padding: 0;
+}
+
+.content__video {
+	border-radius: 10px;
+	background-color: var(--secondary-color-blue);
+}
+
+.content__video .content__video-description p {
+	color: var(--main-color) !important;
+	font-size: 1.3rem;
+}
+
+footer div {
+	background-color: var(--main-color);
+}
+
+a i {
+	color: var(--secondary-color-blue) !important;
+}
